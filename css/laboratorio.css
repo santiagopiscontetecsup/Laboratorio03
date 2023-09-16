@@ -1,0 +1,159 @@
+* {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("../img/estrellas.gif");
+}
+
+.contenedor {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  width: 400px;
+  height: auto;
+  box-shadow: 1px 10px 18px gray inset;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.head {
+  background: url("../img/avatar.jpg") no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 6.2cm;
+  border-bottom: 3px solid lightseagreen;
+  border-radius: 5%;
+  transition: 0.5s;
+}
+
+.head:hover {
+  box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.7) inset;
+  transition: 0.5s;
+}
+
+.icono {
+  background: url("../img/yo.jpg") no-repeat;
+  background-size: cover;
+  left: 37.6%;
+  top: 77.5%;
+  text-align: center;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border: 2px solid lightseagreen;
+  transition: 0.5s;
+}
+
+.icono a i {
+  margin: 30%;
+  display: none;
+}
+
+.icono:hover {
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.7) inset;
+  transition: 0.5s;
+}
+
+.icono:hover i {
+  display: inline-block;
+  color: white;
+}
+
+.yo {
+  margin: 50px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.yo h1 {
+  font-size: 28px;
+  margin: -4%;
+}
+
+.yo h2 {
+  font-size: 20px;
+  margin: -2%;
+}
+
+.lista {
+  display: inline-flex;
+  list-style: none;
+  padding: 19px;
+  flex-direction: column;
+}
+
+.tabla {
+  display: inline-block;
+  margin-top: -18px;
+}
+
+.lista a {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lista p {
+  border: 1px solid rgba(40, 159, 82, 0.674);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.caja {
+  padding-left: 8px;
+  display: inline-flex;
+  justify-content: flex-start;
+  border-top: 1px solid rgb(118, 118, 118);
+  margin-left: -35px;
+}
+
+#formularioContacto {
+  background-color: #f5f5f5;
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: -1px;
+}
+
+#formularioContacto label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+#formularioContacto input[type="text"],
+#formularioContacto input[type="email"],
+#formularioContacto textarea {
+  width: 100%;
+  padding: -6px;
+  margin-bottom: 10px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#formularioContacto textarea {
+  resize: none;
+}
+
+#formularioContacto input[type="submit"] {
+  background-color: lightseagreen;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#formularioContacto input[type="submit"]:hover {
+  background-color: darkseagreen;
+}
+
+#mensajeExito {
+  color: black;
+  font-weight: bold;
+}

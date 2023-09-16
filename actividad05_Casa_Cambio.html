@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/actividad05.css" />
+    <title>Casa de Cambio</title>
+  </head>
+  <body>
+    <h1>Casa de Cambio</h1>
+
+    <form id="cambioForm">
+      <label for="moneda">Selecciona la moneda a la que quieres cambiar:</label
+      ><br />
+      <input type="radio" name="moneda" value="dolar" id="dolar" /> Dólar<br />
+      <input type="radio" name="moneda" value="euro" id="euro" />
+      Euro<br /><br />
+
+      <label for="monto">Ingresa el monto en soles:</label><br />
+      <input type="number" id="monto" name="monto" required /><br /><br />
+
+      <input type="button" value="Cotizar" onclick="calcularCambio()" />
+    </form>
+    <script src="js/cambio_moneda.js"></script>
+  </body>
+</html>
